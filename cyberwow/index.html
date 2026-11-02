@@ -5,7 +5,13 @@
 <title>Cyber Wow · Miss Katty Land</title>
 <meta property="og:title" content="Cyber Wow · 20% de descuento en paquetes de cumpleaños">
 <meta property="og:description" content="Solo del 2 al 5 de noviembre. Separa tu fecha con S/ 100; tu cumple puede ser en cualquier fecha.">
-<meta property="og:image" content="img/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://misskattyland.github.io/cyberwow/">
+<meta property="og:image" content="https://misskattyland.github.io/cyberwow/img/preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Miss Katty Land">
+<meta name="twitter:card" content="summary_large_image">
 <style>
 :root{--azul:#1229F2;--azul-osc:#0B1BB8;--rosa:#FF2D6F;--crema:#FFF7EC;--amarillo:#F2C96B;--agua:#2B8A86;--texto:#2b2530;--suave:#6b6470}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -257,7 +263,7 @@ const ACT={
   "video": null
  }
 };
-const RATIO={"arte-1.jpg": 1.0, "arte-2.jpg": 1.0, "arte-3.jpg": 1.0, "jabones-1.jpg": 1.0, "jabones-2.jpg": 1.0, "jabones-3.jpg": 1.0, "pet-1.jpg": 0.571, "pet-2.jpg": 0.571, "pet-3.jpg": 0.567, "picnic-1.jpg": 0.563, "picnic-2.jpg": 0.75, "picnic-3.jpg": 0.563, "picnic-4.jpg": 0.563, "slime-1.jpg": 0.563, "slime-2.jpg": 0.563, "slime-3.jpg": 0.563, "spa-1.jpg": 0.57, "spa-2.jpg": 0.75, "spa-3.jpg": 0.562, "totebag-1.jpg": 1.0, "totebag-2.jpg": 1.0, "totebag-3.jpg": 1.0};
+const RATIO={"arte-1.jpg": 1.0, "arte-2.jpg": 1.0, "arte-3.jpg": 1.0, "jabones-1.jpg": 1.0, "jabones-2.jpg": 1.0, "jabones-3.jpg": 1.0, "pet-1.jpg": 0.571, "pet-2.jpg": 0.571, "pet-3.jpg": 0.567, "picnic-1.jpg": 0.563, "picnic-2.jpg": 0.75, "picnic-3.jpg": 0.563, "picnic-4.jpg": 0.563, "preview.jpg": 1.905, "slime-1.jpg": 0.563, "slime-2.jpg": 0.563, "slime-3.jpg": 0.563, "spa-1.jpg": 0.57, "spa-2.jpg": 0.75, "spa-3.jpg": 0.562, "totebag-1.jpg": 1.0, "totebag-2.jpg": 1.0, "totebag-3.jpg": 1.0};
 const PKG=[{"id": "spa-creativo", "tag": null, "nombre": "Spa Creativo", "gancho": "Un spa entre amigas y dos creaciones para llevar a casa", "acts": ["spa", "jabones", "totebag"], "casa": "La experiencia del spa con sus fotos, sus jabones y su totebag único", "antes": "1,499", "ahora": "1,199", "ahorras": "300"}, {"id": "fiesta-wow", "tag": "Solo en Cyber Wow", "nombre": "Picnic Fiesta", "gancho": "La fiesta completa: adoptan y cuidan a su mascota, comparten un picnic y crean su slime", "acts": ["pet", "picnic", "slime"], "casa": "Su mascota con certificado y look, recuerdos del picnic y su slime", "antes": "1,799", "ahora": "1,439", "ahorras": "360"}, {"id": "creativo-plus", "tag": null, "nombre": "Creativo Plus", "gancho": "Sus propios jabones, un bolso diseñado por ellos y una obra de arte: tres creaciones para llevar a casa", "acts": ["jabones", "totebag", "arte"], "casa": "Sus jabones, su totebag único y su obra de arte", "antes": "1,199", "ahora": "959", "ahorras": "240"}];
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const mediaDe=k=>{const a=ACT[k],r=[];a.fotos.forEach((f,i)=>{r.push({t:'img',src:'img/'+f,cap:a.nombre,k});if(i===0&&a.video)r.push({t:'vid',src:a.video,poster:'img/'+a.fotos[0],cap:a.nombre,k});});return r};
