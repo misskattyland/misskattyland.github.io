@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Cyber Wow · Miss Katty Land</title>
+<meta property="og:title" content="Cyber Wow · 20% de descuento en paquetes de cumpleaños">
+<meta property="og:description" content="Solo del 2 al 5 de noviembre. Separa tu fecha con S/ 100; tu cumple puede ser en cualquier fecha.">
+<meta property="og:image" content="img/logo.png">
+<style>
+:root{--azul:#1229F2;--azul-osc:#0B1BB8;--rosa:#FF2D6F;--crema:#FFF7EC;--amarillo:#F2C96B;--agua:#2B8A86;--texto:#2b2530;--suave:#6b6470}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;scroll-behavior:smooth}
+body{font-family:"Segoe UI",Arial,Helvetica,sans-serif;background-color:var(--azul);background-image:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Cg fill='white' fill-opacity='.085' font-family='Arial Black,Arial,sans-serif' font-weight='900'%3E%3Ctext x='8' y='46' font-size='40'%3E%25%3C/text%3E%3Ctext x='88' y='70' font-size='26' transform='rotate(-14 100 60)'%3E%25%3C/text%3E%3Ctext x='38' y='128' font-size='30' transform='rotate(12 50 118)'%3E%25%3C/text%3E%3Ctext x='112' y='140' font-size='42'%3E%25%3C/text%3E%3C/g%3E%3C/svg%3E");background-size:150px 150px;color:var(--texto);line-height:1.35}
+.wrap{max-width:560px;margin:0 auto;padding:0 16px 104px}
+header{text-align:center;color:#fff;padding:26px 8px 22px}
+.logo{display:inline-block;background:#fff;border-radius:20px;padding:8px 18px;margin-bottom:12px}
+.logo img{height:64px;display:block}
+.cyber{font-weight:900;letter-spacing:.18em;font-size:18px;opacity:.95}
+.wow{font-family:"Arial Black","Segoe UI",Arial,sans-serif;font-weight:900;font-size:86px;line-height:.95;letter-spacing:-.02em}
+.titulo{font-weight:900;font-size:24px;margin:8px 0 12px;line-height:1.1}
+.fecha{display:inline-block;background:var(--rosa);color:#fff;font-weight:800;letter-spacing:.04em;font-size:14px;padding:8px 16px;border-radius:6px}
+.intro{color:#fff;text-align:center;font-size:15px;margin:2px 10px 18px;opacity:.95}
+.card{background:#fff;border-radius:22px;overflow:hidden;margin-bottom:18px;position:relative;break-inside:avoid;page-break-inside:avoid;border:3px solid var(--rosa)}
+.tag{position:absolute;top:12px;left:0;background:var(--rosa);color:#fff;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:6px 14px 6px 12px;border-radius:0 8px 8px 0;z-index:3}
+/* galeria en movimiento (2 filas que corren en sentidos opuestos, sin parar) */
+.car{position:relative;background:#f3eefb;padding:10px 0 8px;overflow:hidden}
+.fila{overflow:hidden;margin-bottom:8px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
+.fila:last-child{margin-bottom:0}
+.tira{display:flex;width:max-content;animation:corre var(--dur,40s) linear infinite;will-change:transform}
+.fila.inv .tira{animation-direction:reverse}
+@keyframes corre{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (hover:hover){.fila:hover .tira{animation-play-state:paused}}
+.fila:active .tira{animation-play-state:paused}
+.it{flex:0 0 auto;height:124px;margin-right:8px;border:0;padding:0;background:#ddd;border-radius:14px;overflow:hidden;position:relative;cursor:zoom-in}
+.it img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
+.it .play{position:absolute;right:6px;top:6px;width:28px;height:28px;border-radius:50%;background:rgba(255,45,111,.95);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;padding-left:2px}
+@media (prefers-reduced-motion:reduce){.tira{animation:none}.fila{overflow-x:auto;-webkit-mask-image:none;mask-image:none}}
+.it:focus-visible,.chip:focus-visible,.thumb:focus-visible{outline:3px solid var(--rosa);outline-offset:-3px}
+.cuerpo{padding:12px 16px 4px;text-align:center}
+.cuerpo .acts{text-align:left}
+h2{font-family:"Arial Black","Segoe UI",Arial,sans-serif;font-size:27px;color:var(--azul);line-height:1.05}
+.gancho{font-size:14px;color:var(--suave);margin:4px 0 10px}
+h3{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--rosa);margin:10px 0 4px}
+.acts{list-style:none}
+.acts li{display:grid;grid-template-columns:64px 1fr;gap:10px;align-items:center;padding:8px 0;border-bottom:1px dashed #e8dfe6}
+.acts li:last-child{border:0}
+.thumb{width:64px;height:64px;border-radius:14px;overflow:hidden;border:0;padding:0;position:relative;cursor:zoom-in;background:#ddd}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb .play{position:absolute;right:4px;bottom:4px;width:20px;height:20px;border-radius:50%;background:var(--rosa);color:#fff;font-size:9px;display:flex;align-items:center;justify-content:center;padding-left:1px}
+.acts b{display:block;font-size:15.5px;color:var(--texto)}
+.acts span{display:block;color:var(--suave);font-size:13.5px;line-height:1.3;margin-top:1px}
+.chip{display:inline-block;margin-top:4px;background:#f7f5ff;border:1.5px solid #d9d4e6;color:var(--azul);font-weight:800;font-size:12px;padding:4px 10px;border-radius:999px;cursor:pointer}
+.casa{font-size:14.5px}
+.precio{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:12px 14px 0;padding:12px 14px;border:2px solid #d9d4e6;border-radius:16px;background:#f7f5ff}
+.p-izq{display:flex;align-items:flex-end;gap:16px}
+.antes small,.ahora small{display:block;font-size:12px;color:var(--suave);font-weight:700}
+.antes s{font-size:20px;font-weight:800;color:#8c8694;text-decoration-thickness:2px}
+.ahora strong{font-size:38px;line-height:1;color:var(--azul);font-weight:900}
+.sello{background:var(--rosa);color:#fff;border-radius:14px;text-align:center;padding:8px 14px;line-height:1;transform:rotate(-3deg);box-shadow:0 3px 0 rgba(0,0,0,.12)}
+.sello b{display:block;font-size:34px;font-weight:900}
+.sello span{font-size:12px;font-weight:800;letter-spacing:.08em}
+.ahorras{text-align:center;font-weight:700;color:var(--agua);font-size:13.5px;padding:8px 12px 14px}
+.reserva{background:var(--crema);border-radius:22px;padding:20px 18px;text-align:center;border:3px solid var(--amarillo);break-inside:avoid;page-break-inside:avoid}
+.reserva h2{color:var(--azul);font-size:22px}
+.reserva p{font-size:15px;margin:8px 0}
+.boton{display:inline-block;background:var(--rosa);color:#fff;font-weight:900;font-size:17px;padding:13px 22px;border-radius:999px;text-decoration:none;margin-top:6px}
+.legal{color:#dfe3ff;font-size:12px;text-align:center;margin:16px 6px 0;line-height:1.45}
+/* boton de WhatsApp siempre visible (igual que el catalogo normal) */
+.wa{position:fixed;left:0;right:0;bottom:0;z-index:20;padding:12px 16px;background:linear-gradient(180deg,rgba(18,41,242,0),#1229F2 45%);text-align:center}
+.wa a{display:block;max-width:420px;margin:0 auto;background:#25a35a;color:#fff;text-decoration:none;font-weight:800;border-radius:999px;padding:14px;font-size:17px;box-shadow:0 4px 0 #1a7a42}
+/* salto de pagina solo al imprimir */
+.salto{display:none}
+/* visor */
+#vis{position:fixed;inset:0;background:rgba(8,12,60,.96);z-index:50;display:none;flex-direction:column;align-items:center;justify-content:center;touch-action:pan-y}
+#vis.abierto{display:flex}
+#vis .lienzo{flex:1;width:100%;display:flex;align-items:center;justify-content:center;min-height:0;padding:56px 0 8px}
+#vis img,#vis video{max-width:100%;max-height:100%;object-fit:contain;border-radius:10px}
+#vis .pie{color:#fff;text-align:center;padding:6px 16px 16px;font-weight:800}
+#vis .pie small{display:block;font-weight:600;opacity:.8;margin-top:2px}
+#vis button{position:absolute;border:0;background:rgba(255,255,255,.16);color:#fff;font-size:26px;width:46px;height:46px;border-radius:50%;cursor:pointer}
+#vis .x{top:10px;right:10px}
+#vis .ant{left:8px;top:50%}
+#vis .sig{right:8px;top:50%}
+#vis button:hover{background:rgba(255,45,111,.9)}
+@page{size:A4;margin:0}
+@media print{
+ body{background-color:var(--azul)}
+ .wrap{max-width:none;width:226mm;zoom:.78;padding:7mm 0 0}
+ header{padding:12px 8px 10px}.logo img{height:46px}.wow{font-size:64px}.titulo{font-size:19px;margin:4px 0 8px}
+ .intro{margin-bottom:10px}
+ .card{margin-bottom:10px}
+ .car{padding:0;background:#fff}
+ .fila:nth-child(2),.it.dup{display:none}
+ .fila{overflow:visible;-webkit-mask-image:none;mask-image:none;margin:0}
+ .tira{animation:none;transform:none;display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:3px;width:auto}
+ .it{height:112px;width:auto!important;margin:0;border-radius:0;cursor:default}
+ .it:nth-child(n+4){display:none}
+ .it .play,.chip,.thumb .play{display:none}
+ .cuerpo{padding:8px 14px 2px}h2{font-size:23px}
+ .acts li{padding:4px 0;grid-template-columns:44px 1fr;gap:8px}.thumb{width:44px;height:44px}
+ .acts span{font-size:11.5px}.acts b{font-size:13.5px}
+ .gancho{font-size:12.5px;margin-bottom:4px}h3{margin:6px 0 2px;font-size:11px}
+ .casa{font-size:12.5px}.precio{margin-top:8px;padding:8px 12px}.ahora strong{font-size:30px}.ahorras{padding:5px 10px 9px;font-size:12px}
+ #vis{display:none!important}
+ .wa{display:none!important}
+ .salto{display:block;break-before:page;page-break-before:always;height:7mm}
+}
+</style></head><body><div class="wrap">
+<header>
+  <div class="logo"><img src="img/logo.png" alt="Miss Katty Land"></div>
+  <div class="cyber">CYBER</div>
+  <div class="wow">WOW</div>
+  <div class="titulo">20% DE DESCUENTO<br>EN PAQUETES DE CUMPLEAÑOS</div>
+  <div class="fecha">SOLO DEL 02 AL 05 DE NOVIEMBRE</div>
+</header>
+<p class="intro">Tres paquetes de tres actividades. Los niños crean, juegan y se llevan algo hecho por ellos. Toca las fotos para verlas en grande.</p>
+<article class="card" id="spa-creativo">
+  
+  <div class="car" aria-label="Fotos de Spa Creativo"><div class="fila"><div class="tira"></div></div><div class="fila inv"><div class="tira"></div></div></div>
+  <div class="cuerpo">
+    <h2>Spa Creativo</h2>
+    <p class="gancho">Un spa entre amigas y dos creaciones para llevar a casa</p>
+    <h3>Incluye 3 actividades</h3>
+    <ul class="acts"></ul>
+    <h3>Se llevan a casa</h3>
+    <p class="casa">La experiencia del spa con sus fotos, sus jabones y su totebag único</p>
+  </div>
+  <div class="precio">
+    <div class="p-izq">
+      <div class="antes"><small>Antes</small><s>S/ 1,499</s></div>
+      <div class="ahora"><small>Ahora</small><strong>S/ 1,199</strong></div>
+    </div>
+    <div class="sello"><b>20%</b><span>DSCTO</span></div>
+  </div>
+  <div class="ahorras">Ahorras S/ 300 · Dura unas 2 horas · hasta 15 niños</div>
+</article><article class="card" id="fiesta-wow">
+  <div class="tag">Solo en Cyber Wow</div>
+  <div class="car" aria-label="Fotos de Picnic Fiesta"><div class="fila"><div class="tira"></div></div><div class="fila inv"><div class="tira"></div></div></div>
+  <div class="cuerpo">
+    <h2>Picnic Fiesta</h2>
+    <p class="gancho">La fiesta completa: adoptan y cuidan a su mascota, comparten un picnic y crean su slime</p>
+    <h3>Incluye 3 actividades</h3>
+    <ul class="acts"></ul>
+    <h3>Se llevan a casa</h3>
+    <p class="casa">Su mascota con certificado y look, recuerdos del picnic y su slime</p>
+  </div>
+  <div class="precio">
+    <div class="p-izq">
+      <div class="antes"><small>Antes</small><s>S/ 1,799</s></div>
+      <div class="ahora"><small>Ahora</small><strong>S/ 1,439</strong></div>
+    </div>
+    <div class="sello"><b>20%</b><span>DSCTO</span></div>
+  </div>
+  <div class="ahorras">Ahorras S/ 360 · Dura unas 2 horas · hasta 15 niños</div>
+</article><div class="salto"></div><article class="card" id="creativo-plus">
+  
+  <div class="car" aria-label="Fotos de Creativo Plus"><div class="fila"><div class="tira"></div></div><div class="fila inv"><div class="tira"></div></div></div>
+  <div class="cuerpo">
+    <h2>Creativo Plus</h2>
+    <p class="gancho">Sus propios jabones, un bolso diseñado por ellos y una obra de arte: tres creaciones para llevar a casa</p>
+    <h3>Incluye 3 actividades</h3>
+    <ul class="acts"></ul>
+    <h3>Se llevan a casa</h3>
+    <p class="casa">Sus jabones, su totebag único y su obra de arte</p>
+  </div>
+  <div class="precio">
+    <div class="p-izq">
+      <div class="antes"><small>Antes</small><s>S/ 1,199</s></div>
+      <div class="ahora"><small>Ahora</small><strong>S/ 959</strong></div>
+    </div>
+    <div class="sello"><b>20%</b><span>DSCTO</span></div>
+  </div>
+  <div class="ahorras">Ahorras S/ 240 · Dura unas 2 horas · hasta 15 niños</div>
+</article>
+<section class="reserva">
+  <h2>Separa tu fecha con S/ 100</h2>
+  <p>Reserva hasta el <b>5 de noviembre</b> y asegura tu precio Cyber Wow. <b>Tu cumple puede ser en cualquier fecha.</b></p>
+  <a class="boton" href="https://wa.me/51941474847?text=Hola%20Miss%20Katty%2C%20quiero%20el%20paquete%20Cyber%20Wow">Escríbenos por WhatsApp 📲 941474847</a>
+</section>
+<p class="legal">Precios para hasta 15 niños. Promoción válida para reservas del 2 al 5 de noviembre; el evento puede ser en cualquier fecha, sujeto a disponibilidad. La movilidad está incluida solo dentro del cercado de Ica; fuera del cercado se coordina aparte. Adaptamos todo a la temática que elijas.</p>
+</div>
+<div class="wa"><a href="https://wa.me/51941474847?text=Hola%20Miss%20Katty%2C%20quiero%20el%20paquete%20Cyber%20Wow">Escríbenos por WhatsApp 📲</a></div>
+<div id="vis" role="dialog" aria-modal="true" aria-label="Fotos y videos"><button class="x" aria-label="Cerrar">✕</button><button class="ant" aria-label="Anterior">‹</button><button class="sig" aria-label="Siguiente">›</button><div class="lienzo"></div><div class="pie"></div></div>
+<script>
+
+/* ===== CONFIGURACION: para agregar un video de 10 s a una actividad, cambia  "video": null  por  "video": "videos/spa.mp4"  (y sube el archivo a la carpeta videos) ===== */
+const ACT={
+ "spa": {
+  "nombre": "Spa Party",
+  "desc": "Un spa entre amigas: bata y espejo propio, limpieza de rostro con mascarillas, uñas y peinados.",
+  "fotos": [
+   "spa-1.jpg",
+   "spa-2.jpg",
+   "spa-3.jpg"
+  ],
+  "video": null
+ },
+ "jabones": {
+  "nombre": "Jabones Lab",
+  "desc": "Eligen colores, formas y aromas y preparan sus propios jabones, paso a paso y con guía.",
+  "fotos": [
+   "jabones-1.jpg",
+   "jabones-2.jpg",
+   "jabones-3.jpg"
+  ],
+  "video": null
+ },
+ "totebag": {
+  "nombre": "Tote Bag Studio",
+  "desc": "Cada niño decora su totebag de tocuyo con parches, DTF, plumones de tela y los diseños que elija.",
+  "fotos": [
+   "totebag-1.jpg",
+   "totebag-2.jpg",
+   "totebag-3.jpg"
+  ],
+  "video": null
+ },
+ "pet": {
+  "nombre": "Pet Studio",
+  "desc": "Pequeños veterinarios: revisan a su mascota, la adoptan con carné y certificado, y la consienten en el spa.",
+  "fotos": [
+   "pet-1.jpg",
+   "pet-2.jpg",
+   "pet-3.jpg"
+  ],
+  "video": null
+ },
+ "picnic": {
+  "nombre": "Picnic Party",
+  "desc": "Mesa baja, cojines y teepees para las fotos, con juegos (bingo, ponle la cola al burro, tutti frutti, cartas), snacks y bebida.",
+  "fotos": [
+   "picnic-1.jpg",
+   "picnic-2.jpg",
+   "picnic-3.jpg",
+   "picnic-4.jpg"
+  ],
+  "video": null
+ },
+ "slime": {
+  "nombre": "Slime Lab",
+  "desc": "Mezclan colores, texturas y brillos para crear su propio slime.",
+  "fotos": [
+   "slime-1.jpg",
+   "slime-2.jpg",
+   "slime-3.jpg"
+  ],
+  "video": null
+ },
+ "arte": {
+  "nombre": "Estación de Arte",
+  "desc": "Exploración libre con témperas, acuarelas y pinceles; cada niño se lleva su obra en su lienzo.",
+  "fotos": [
+   "arte-1.jpg",
+   "arte-2.jpg",
+   "arte-3.jpg"
+  ],
+  "video": null
+ }
+};
+const RATIO={"arte-1.jpg": 1.0, "arte-2.jpg": 1.0, "arte-3.jpg": 1.0, "jabones-1.jpg": 1.0, "jabones-2.jpg": 1.0, "jabones-3.jpg": 1.0, "pet-1.jpg": 0.571, "pet-2.jpg": 0.571, "pet-3.jpg": 0.567, "picnic-1.jpg": 0.563, "picnic-2.jpg": 0.75, "picnic-3.jpg": 0.563, "picnic-4.jpg": 0.563, "slime-1.jpg": 0.563, "slime-2.jpg": 0.563, "slime-3.jpg": 0.563, "spa-1.jpg": 0.57, "spa-2.jpg": 0.75, "spa-3.jpg": 0.562, "totebag-1.jpg": 1.0, "totebag-2.jpg": 1.0, "totebag-3.jpg": 1.0};
+const PKG=[{"id": "spa-creativo", "tag": null, "nombre": "Spa Creativo", "gancho": "Un spa entre amigas y dos creaciones para llevar a casa", "acts": ["spa", "jabones", "totebag"], "casa": "La experiencia del spa con sus fotos, sus jabones y su totebag único", "antes": "1,499", "ahora": "1,199", "ahorras": "300"}, {"id": "fiesta-wow", "tag": "Solo en Cyber Wow", "nombre": "Picnic Fiesta", "gancho": "La fiesta completa: adoptan y cuidan a su mascota, comparten un picnic y crean su slime", "acts": ["pet", "picnic", "slime"], "casa": "Su mascota con certificado y look, recuerdos del picnic y su slime", "antes": "1,799", "ahora": "1,439", "ahorras": "360"}, {"id": "creativo-plus", "tag": null, "nombre": "Creativo Plus", "gancho": "Sus propios jabones, un bolso diseñado por ellos y una obra de arte: tres creaciones para llevar a casa", "acts": ["jabones", "totebag", "arte"], "casa": "Sus jabones, su totebag único y su obra de arte", "antes": "1,199", "ahora": "959", "ahorras": "240"}];
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const mediaDe=k=>{const a=ACT[k],r=[];a.fotos.forEach((f,i)=>{r.push({t:'img',src:'img/'+f,cap:a.nombre,k});if(i===0&&a.video)r.push({t:'vid',src:a.video,poster:'img/'+a.fotos[0],cap:a.nombre,k});});return r};
+const mediaPkg=p=>{const l=p.acts.map(mediaDe),r=[];for(let i=0;l.some(x=>i<x.length);i++)l.forEach(x=>{if(x[i])r.push(x[i])});return r};
+let lista=[],pos=0,pausaVis=false;
+const vis=document.getElementById('vis'),lienzo=vis.querySelector('.lienzo'),pie=vis.querySelector('.pie');
+function pinta(){const m=lista[pos];lienzo.innerHTML='';let el;
+ if(m.t==='vid'){el=document.createElement('video');el.src=m.src;el.poster=m.poster;el.controls=true;el.playsInline=true;el.autoplay=true;el.loop=true}
+ else{el=document.createElement('img');el.src=m.src;el.alt=m.cap}
+ lienzo.appendChild(el);
+ pie.innerHTML=m.cap+'<small>'+(pos+1)+' / '+lista.length+(m.t==='vid'?' · video':'')+'</small>';
+ [pos-1,pos+1].forEach(j=>{const n=lista[(j+lista.length)%lista.length];if(n&&n.t==='img'){new Image().src=n.src}})}
+function abre(l,i){lista=l;pos=i;pausaVis=true;vis.classList.add('abierto');document.body.style.overflow='hidden';pinta();vis.querySelector('.x').focus()}
+function cierra(){const v=lienzo.querySelector('video');if(v)v.pause();vis.classList.remove('abierto');document.body.style.overflow='';pausaVis=false}
+function mueve(d){const v=lienzo.querySelector('video');if(v)v.pause();pos=(pos+d+lista.length)%lista.length;pinta()}
+vis.querySelector('.x').onclick=cierra;vis.querySelector('.ant').onclick=()=>mueve(-1);vis.querySelector('.sig').onclick=()=>mueve(1);
+vis.addEventListener('click',e=>{if(e.target===vis||e.target===lienzo)cierra()});
+document.addEventListener('keydown',e=>{if(!vis.classList.contains('abierto'))return;if(e.key==='Escape')cierra();if(e.key==='ArrowLeft')mueve(-1);if(e.key==='ArrowRight')mueve(1)});
+let tx=null;vis.addEventListener('touchstart',e=>{tx=e.touches[0].clientX},{passive:true});
+vis.addEventListener('touchend',e=>{if(tx===null)return;const dx=e.changedTouches[0].clientX-tx;tx=null;if(Math.abs(dx)>45)mueve(dx<0?1:-1)},{passive:true});
+const H=124;
+const tpl=(m,i,dup)=>{const b=document.createElement('button');b.className='it'+(dup?' dup':'');b.type='button';b.setAttribute('aria-label','Abrir '+m.cap);
+ const r=Math.min(1.5,Math.max(.72,(RATIO[m.t==='vid'?m.poster.slice(4):m.src.slice(4)]||1)));b.style.width=Math.round(H*r)+'px';
+ b.innerHTML=(m.t==='vid'?'<img src="'+m.poster+'" alt=""><span class="play">▶</span>':'<img src="'+m.src+'" alt="'+m.cap+'" decoding="async">');if(dup)b.tabIndex=-1;return b};
+PKG.forEach(p=>{
+ const card=document.getElementById(p.id),items=mediaPkg(p),grupos=[[],[]];items.forEach((m,i)=>grupos[i%2].push(i));
+ card.querySelectorAll('.fila').forEach((fila,fi)=>{const tira=fila.querySelector('.tira');
+  [0,1].forEach(rep=>grupos[fi].forEach(i=>{const b=tpl(items[i],i,rep===1);b.onclick=()=>abre(items,i);tira.appendChild(b)}));
+  const vel=()=>{const w=tira.scrollWidth/2;if(w>0)tira.style.setProperty('--dur',Math.max(18,w/34)+'s')};
+  vel();addEventListener('load',vel);setTimeout(vel,600);});
+ const ul=card.querySelector('.acts');
+ p.acts.forEach(k=>{const a=ACT[k],li=document.createElement('li');
+  li.innerHTML='<button class="thumb" type="button" aria-label="Ver fotos de '+a.nombre+'"><img src="img/'+a.fotos[0]+'" alt="" loading="lazy">'+(a.video?'<span class="play">▶</span>':'')+'</button><div><b>'+a.nombre+'</b><span>'+a.desc+'</span><button class="chip" type="button">'+(a.video?'Ver fotos y video':'Ver fotos')+'</button></div>';
+  li.querySelectorAll('button').forEach(b=>b.onclick=()=>abre(mediaDe(k),0));ul.appendChild(li)});
+});
+
+</script></body></html>
